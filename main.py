@@ -8,6 +8,7 @@ import argparse
 import math
 
 import numpy as np
+from google.colab.patches import cv2_imshow
 
 MINOVERLAP = 0.5 # default value (defined in the PASCAL VOC2012 challenge)
 
